@@ -22,13 +22,13 @@ else:
 
     # Filtering routines (0/6 wrapped)
 
-    # Identification routines (0/5 wrapped)
+    # Identification routines (3/5 wrapped)
+    from .ident import ib01ad, ib01bd, ib01cd
 
     # Mathematical routines (7/81 wrapped)
     from .math import mc01td, mb03rd, mb03vd, mb03vy, mb03wd, mb05md, mb05nd
 
     # Synthesis routines (15/50 wrapped)
-
     from .synthesis import (sb01bd,
                             sb02md, sb02mt, sb02od, 
                             sb03md, sb03md57, sb03od,
